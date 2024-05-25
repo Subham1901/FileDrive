@@ -1,5 +1,7 @@
+import UIRenderer from "./containers/UIRenderer";
+
 function App() {
-  return <h1 className="m-2">FileDrive!!</h1>;
+  return <UIRenderer />;
 }
 
 export default App;
